@@ -21,7 +21,6 @@ body {
     align-items: center;
     height: 70px;
     padding-top: 25px;
-    gap: 200px
 }
 
 .logo {
@@ -55,15 +54,17 @@ ul {
     flex-direction: column;
 }
 
+.text {
+    margin-left: 200px;
+}
+
 .top {
     background: var(--darkblue);
     display: flex;
     height: 450px;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding-bottom: 50px;
-    padding-left: 200px;
-    padding-right: 200px;
     gap: 200px;
 }
 
@@ -77,6 +78,7 @@ ul {
     align-items: center;
     color: var(--white);
     padding: 40px;
+    margin-right: 200px;
 }
 
 h1 {
@@ -108,30 +110,49 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background-color: var(--white);
+    height: 450px;
+    color: var(--darkblue);
 }
 
 .boxes {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .boxes p {
-    color: var(--darkblue);
     text-align: center;
+    width: 100px;
+}
+
+.imgtext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
 }
 
 .box {
-    height: 100px;
-    width: 100px;
-    border-width: 10px;
+    height: 150px;
+    width: 150px;
+    border-width: 3px;
     border-style: solid;
-    border: var(--lightblue);
+    border-color: var(--lightblue);
+    border-radius: 15px;
 }
 
 .copyright {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0px;
+    background-color: var(--darkblue);
+    color: var(--white);
+    font-size: 14px;
 }
 
 h2 {
@@ -142,4 +163,58 @@ h2 {
 
 .bottom {
     background-color: var(--lightgrey);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 250px;
+    color: var(--darkblue);
+}
+
+h3 {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 30px;
+    margin: 0;
+}
+
+h4 {
+    text-align: right;
+    margin: 20px 0 0 0;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 200px;
+    background-color: var(--white);
+
+}
+
+.bluebox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--lightblue);
+    width: 1500px;
+    padding: 20px 80px;
+    border-radius: 5px;
+}
+
+h5 {
+    color: var(--white);
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+
+}
+
+.bluebox .text {
+    margin-left: 0px;
+}
+
+.bluebox button {
+    border-style: solid;
+    border-color: var(--white);
+    border-width: 2px;
 }
